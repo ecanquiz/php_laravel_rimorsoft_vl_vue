@@ -19,3 +19,7 @@ $ composer dump-autoload
 
 $ php artisan migrate:refresh
 
+Lesson 3 - One component design
+
+
+
