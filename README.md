@@ -21,5 +21,7 @@ $ php artisan migrate:refresh
 
 Lesson 3 - One component design
 
+Lesson 4 - Simple API in Laravel
 
+$ php artisan make:Controller IdeaController
 
