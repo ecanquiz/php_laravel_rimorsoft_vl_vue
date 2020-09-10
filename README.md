@@ -27,3 +27,8 @@ $ php artisan make:Controller IdeaController
 
 Lesson 5 - Workflow and structure of a VUEjs component in Laravel
 
+Lesson 6 - Structure of a VUEjs component
+
+$ npm run dev
+
+
