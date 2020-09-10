@@ -25,3 +25,5 @@ Lesson 4 - Simple API in Laravel
 
 $ php artisan make:Controller IdeaController
 
+Lesson 5 - Workflow and structure of a VUEjs component in Laravel
+
