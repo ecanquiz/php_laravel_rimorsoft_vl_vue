@@ -31,4 +31,9 @@ Lesson 6 - Structure of a VUEjs component
 
 $ npm run dev
 
+Lesson 7 - NPM y componentes VUEjs
+
+$ npm run dev
+
+
 
