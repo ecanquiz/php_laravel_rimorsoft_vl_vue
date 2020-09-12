@@ -35,5 +35,18 @@ Lesson 7 - NPM y componentes VUEjs
 
 $ npm run dev
 
+Lesson 8 - Installing and using momentjs, toastr
+
+$ npm install moment --save
+
+$ npm install toastr --save
+
+$ npm run dev
+
+
+
+
+
+
 
 
