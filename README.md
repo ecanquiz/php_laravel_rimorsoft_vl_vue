@@ -47,6 +47,13 @@ Lesson 9 - Save data using Laravel and a VUEjs component
 
 $ npm run dev
 
+Lesson 10 - Timezone Laravel and Toastr notification design
+
+$ npm run dev
+
+
+
+
 
 
 
