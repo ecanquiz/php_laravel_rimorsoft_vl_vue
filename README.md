@@ -51,6 +51,14 @@ Lesson 10 - Timezone Laravel and Toastr notification design
 
 $ npm run dev
 
+Lesson 11 - CSRF-TOKEN and final notes
+
+$ npm run production
+
+
+
+
+
 
 
 

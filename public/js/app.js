@@ -65410,7 +65410,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__WEBPACK_IMPORTED_MODULE_2_moment___default.a.lang('es');
+__WEBPACK_IMPORTED_MODULE_2_moment___default.a.locale('es');
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {

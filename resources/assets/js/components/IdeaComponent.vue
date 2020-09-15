@@ -36,7 +36,7 @@
   import toastr from 'toastr'
   import moment from 'moment'
 
-  moment.lang('es');
+  moment.locale('es');
 
   export default {
     data() {
