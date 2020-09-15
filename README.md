@@ -43,8 +43,9 @@ $ npm install toastr --save
 
 $ npm run dev
 
+Lesson 9 - Save data using Laravel and a VUEjs component
 
-
+$ npm run dev
 
 
 

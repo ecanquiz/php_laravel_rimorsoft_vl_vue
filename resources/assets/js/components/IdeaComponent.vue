@@ -3,10 +3,11 @@
     <h2 class="text-center">Captura tus ideas</h2>
     <div class="well">
       <h4>¿En qué estás pensando?</h4>
-      <form>
+      <form v-on:submit.prevent="createIdea">
         <div class="input-group">
           <input type="text"
                  class="form-control input-sm"
+		 v-model="newIdea"
                  maxlength="256">
           <span class="input-group-btn">
             <button type="submit" class="btn btn-primary btn-sm">
@@ -35,10 +36,13 @@
   import toastr from 'toastr'
   import moment from 'moment'
 
+  moment.lang('es');
+
   export default {
     data() {
       return {
         ideas: [],
+        newIdea: ''
       }
     },
     created() {
@@ -49,11 +53,23 @@
         return moment(d).fromNow();
       },
       getIdeas() {
-        var urlIdeas = 'mis-ideas';
-	axios.get(urlIdeas).then(response => {
+        let url = 'mis-ideas';
+	axios.get(url).then(response => {
           this.ideas = response.data;  
 	});
-      } 
+      },
+      createIdea() {
+        let url = 'guardar-idea' ;
+        axios.post(url, {
+          description: this.newIdea
+	}).then(response => {
+          this.getIdeas();
+	  this.newIdea = '';
+	  toastr.success('Nueva idea registrada');
+	}).catch(error => {
+	  toastr.error(error);
+	}); 
+      }
     }
   }
 </script>
